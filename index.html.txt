@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张三 - 个人名片</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-top: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        .contact {
+            margin: 20px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-icon {
+            width: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>张三</h1>
+        <h2>数字营销专家 | 内容创作者</h2>
+        
+        <div class="contact">
+            <p>📍 上海 | 🌐 <a href="https://example.com">example.com</a></p>
+            <p>✉️ <a href="mailto:zhangsan@email.com">zhangsan@email.com</a></p>
+            <p>📱 +86 138 0000 0000</p>
+        </div>
+        
+        <h3>个人简介</h3>
+        <p>8年数字营销经验，专注社交媒体策略与品牌增长，服务过50+国内外品牌。擅长数据驱动的营销方案，曾主导多个百万级流量campaign。</p>
+        
+        <h3>核心技能</h3>
+        <ul>
+            <li>社交媒体营销（微信/微博/抖音/KOL）</li>
+            <li>Google Analytics & 数据洞察</li>
+            <li>内容策略与创意开发</li>
+            <li>SEO/SEM优化</li>
+        </ul>
+        
+        <div class="social-links">
+            <h3>社交平台</h3>
+            <p>
+                <a href="https://linkedin.com/in/yourprofile">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="social-icon" alt="LinkedIn">
+                    LinkedIn
+                </a>
+            </p>
+            <p>
+                <a href="https://weibo.com/yourprofile">
+                    <img src="https://cdn-icons-png.flaticon.com/512/124/124029.png" class="social-icon" alt="Weibo">
+                    微博
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
